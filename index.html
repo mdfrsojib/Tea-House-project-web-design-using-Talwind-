@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea house</title>
+    <!-- talwind cdn -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <!-- fontawsome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- google font manrope -->
+
+</head>
+<body>
+    <!-- banner section starts here
+      -->
+    <div class="parent_div flex flex-col md:flex-row justify-between items-center min-h-[200px] max-w-[1250px] mx-auto">
+        <div class="left_div">
+          <h1 class="text-[80px] font-bold">It's good <br/>
+          tea time at The <br/> Tea House</h1>
+          <p class="text-[18px] my-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="w-[200px] h-[64px]  bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-xl text-white rounded-lg"><span>Explore More</span><span><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+         <!-- given up image rotation showed -->
+        </div>
+        <!-- eikhan e positioning korar khetre right div e relative dilam karon pop up div ta amra ei div er onusar e postion e nite pari jeno eitak e parent hisab e dhore .. image ke dhorle positiong korte partam eidik seidik sore jeto -->
+        <div class="right_div relative ">
+            <img src="images/banner.png" class="relative top-[100px]" alt="">
+            <div class="flex items-center bg-white rounded-lg shadow-md w-[255px] h-[100px] absolute left-[80px]">
+              <!-- eikhan e ekta arrow bosaya seta rotate kora sikhay dise -->
+              <span class="text-4xl"><i class="fa-solid fa-star"></i></span>
+               <div class="ml-4">
+                <p class="text-4xl font-bold">5.00</p>
+               <p>Trust Pilot Ratings</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- features section starts here -->
+     <section class="min-h-[200px] max-w-[1250px] mx-auto mt-[100px]">
+      <h1 class="text-5xl text-center">Our Featured Products</h1>
+      <p class="text-center my-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      <div class="featured_parent grid grid-cols-4 gap-5 min-h[200px] ">
+      <div class="featured_card w-[267px] h-[391px] p-4 rounded-lg text-center bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400] ">
+        <img class="w-32 h-52 mx-auto block" src="images/tea-2.png" alt="">
+        <h1 class="text-2xl font-bold">Milk Tea</h1>
+        <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+      <div class="featured_card w-[267px] h-[391px] p-4 rounded-lg text-center bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]">
+        <img class="w-32 h-52 mx-auto block" src="images/tea-3.png" alt="">
+        <h1 class="text-2xl font-bold">Black Tea</h1>
+        <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+      <div class="featured_card w-[267px] h-[391px] p-4 rounded-lg text-center bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]">
+        <img class="w-32 h-52 mx-auto block" src="images/tea-4.png" alt="">
+        <h1 class="text-2xl font-bold">Lemon Tea</h1>
+        <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+        </div>
+      <div class="featured_card w-[267px] h-[391px] p-4 rounded-lg text-center bg-gradient-to-b from-[#f4f4f4] to-[#f4f4f400]">
+        <img class="w-32 h-52 mx-auto block" src="images/tea-1.png" alt="">
+        <h1 class="text-2xl font-bold">Green Tea</h1>
+        <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+      </div>
+     </div>
+     </section>
+     
+</body>
+</html>
